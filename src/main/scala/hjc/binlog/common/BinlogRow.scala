@@ -1,4 +1,4 @@
-package hjc.binlog.tools
+package hjc.binlog.common
 
 /**
  * BinlogRow

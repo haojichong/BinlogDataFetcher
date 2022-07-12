@@ -1,8 +1,7 @@
 package hjc.binlog.test
 
 import hjc.binlog.client.BinlogClient
-import hjc.binlog.common.{MysqlCDCSource, StartupMode}
-import hjc.binlog.tools.BinlogRow
+import hjc.binlog.common.{BinlogRow, MysqlCDCSource, StartupMode}
 // TODO
 object TestBinlogDataFetcher {
   def main(args: Array[String]): Unit = {

@@ -4,10 +4,10 @@ import com.github.shyiko.mysql.binlog.BinaryLogClient
 import com.github.shyiko.mysql.binlog.event._
 import hjc.binlog.client.BinlogClient._
 import hjc.binlog.common.StartupMode.StartupOptions
-import hjc.binlog.common.{Logger, MysqlCDCSource, StartupMode}
+import hjc.binlog.common.{BinlogRow, Logger, MysqlCDCSource, StartupMode}
 import hjc.binlog.store.DbBinlogOffsetStore
 import hjc.binlog.table.DbBinlogOffsetRow
-import hjc.binlog.tools.{BinlogRow, JDBCUtils}
+import hjc.binlog.tools.JDBCUtils
 import org.slf4j
 
 //import java.sql.{Connection, DriverManager, ResultSet, ResultSetMetaData, SQLException}
